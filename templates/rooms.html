@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        .room-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 20px;
+            float: left;
+            width: calc(33.33% - 20px);
+            box-sizing: border-box;
+        }
+
+        .room-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .room-card h2 {
+            margin-bottom: 10px;
+        }
+
+        .room-card p {
+            margin-bottom: 10px;
+        }
+
+        .room-card a {
+            display: inline-block;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Management System</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Rooms</a>
+        <a href="#">Reservation</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="room-card">
+                <img src="https://images.unsplash.com/photo-1631049552240-59c37f38802b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Room 101">
+                <h2>Single Room</h2>
+                <p>Perfect for solo travelers, our single rooms offer a cozy and comfortable space. Unwind after a day of exploration in a room designed for your relaxation</p>
+                <p>Cost per night: ₹2,650</p>
+                <a href="#">Book Now</a>
+            </div>
+            <div class="room-card">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-s/22/ac/7b/b8/the-amayaa.jpg" alt="Room 102">
+                <h2>Suite Room</h2>
+                <p>Indulge in luxury with our spacious suites. Perfect for those seeking extra comfort and a touch of elegance. Enjoy the extra amenities and space</p>
+                <p>Cost per night: ₹5,800</p>
+                <a href="#">Book Now</a>
+            </div>
+            <div class="room-card">
+                <img src="https://storage.kempinski.com/cdn-cgi/image/w=1920,f=auto,g=auto,fit=scale-down/ki-cms-prod/images/8/7/9/3/153978-1-eng-GB/c66c718bb147-73661743_4K.jpg" alt="Room 103">
+                <h2>Deluxe Room</h2>
+                <p>Experience luxury at its finest in our deluxe rooms. Stylishly designed with premium amenities for a truly exceptional stay</p>
+                <p>Cost per night: ₹8,650</p>
+                <a href="#">Book Now</a>
+            </div>
+            <!-- Add more room cards as needed -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Hotel Management System (mini project)</p>
+    </footer>
+</body>
+
+</html>

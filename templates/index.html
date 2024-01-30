@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            height: 100vh; /* Make the body take the full viewport height */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        .container-fluid {
+            height: 100%; /* Make the container take the full viewport height */
+            display: flex; /* Use flexbox for layout */
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 20px;
+            width: 20%; /* Set a fixed width for the sidebar */
+        }
+
+        nav a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        section {
+            padding: 20px;
+            width: 80%; /* Set the width for the main content area */
+        }
+
+        .dummy-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .dummy-table th,
+        .dummy-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .dummy-table th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hotel Management System</h1>
+    </header>
+
+    <div class="container-fluid">
+        <nav>
+            <a href="#">Dashboard</a>
+            <a href="#">Staff Management</a>
+            <a href="#">Room Management</a>
+            <a href="#">Reservation Management</a>
+            <a href="#">Billing</a>
+            <!-- Add more options as needed -->
+        </nav>
+        <section>
+            <h2>Reserved Rooms</h2>
+            <table class="dummy-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone Number</th>
+                        <th>Room Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aleena</td>
+                        <td>aleena@gmail.com</td>
+                        <td>(91) 9778219113</td>
+                        <td>Room 101</td>
+                    </tr>
+                    <tr>
+                        <td>Bipha</td>
+                        <td>bipha@gmail.com</td>
+                        <td>(91) 7356848314</td>
+                        <td>Room 101</td>
+                    </tr>
+                    <tr>
+                        <td>Devika</td>
+                        <td>devika@gmail.com</td>
+                        <td>(91) 8590859669</td>
+                        <td>Room 103</td>
+                    </tr>
+                    <tr>
+                        <td>Lakshmi</td>
+                        <td>lakshmi@example.com</td>
+                        <td>(555) 123-4567</td>
+                        <td>Room 101</td>
+                    </tr>
+                    <tr>
+                        <td>Sethu</td>
+                        <td>sethu@example.com</td>
+                        <td>(555) 987-6543</td>
+                        <td>Room 102</td>
+                    </tr>
+                    <tr>
+                        <td>Gopika</td>
+                        <td>gopika@example.com</td>
+                        <td>(555) 555-5555</td>
+                        <td>Room 103</td>
+                    </tr>
+                    <!-- Add more dummy data as needed -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <!-- Bootstrap JS (optional, for some features) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
